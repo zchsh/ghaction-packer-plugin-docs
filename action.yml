@@ -1,0 +1,17 @@
+# https://help.github.com/en/articles/metadata-syntax-for-github-actions
+name: "Packer Plugin Docs"
+description: "GitHub Action to handle documentation in Packer plugin repositories"
+author: "zchsh"
+branding:
+  color: "yellow"
+  icon: "lock"
+
+inputs:
+  docs_dir_path:
+    description: "The path from the repository root to the documentation folder."
+    default: "docs"
+    required: false
+
+runs:
+  using: "node12"
+  main: "index.js"

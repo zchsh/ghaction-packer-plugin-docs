@@ -1,0 +1,20 @@
+{
+  "name": "ghaction-packer-plugin-docs",
+  "version": "1.0.0",
+  "description": "This action is meant to be run in Packer plugin repositories on releases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zchsh/ghaction-packer-plugin-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zchsh/ghaction-packer-plugin-docs/issues"
+  },
+  "homepage": "https://github.com/zchsh/ghaction-packer-plugin-docs#readme"
+}
